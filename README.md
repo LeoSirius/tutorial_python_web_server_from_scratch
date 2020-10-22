@@ -32,6 +32,10 @@ Hello World!
     client_connection.close()
 ```
 
-## WSGI
+## WSGI server
 
 `WSGI`是`Web Server Gateway Interface`的缩写。
+
+在第一部分中，`web server`和`web app`是混在一起写的。WSGI的出现将`web server`和`web app`分开。`web server`是基于底层的`socket api`接口的，而`web app`是基于WSGI的。
+
+
